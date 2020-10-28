@@ -1,11 +1,18 @@
+body{
+    margin: 0;
+}
+
+
 .banner{
-    width:500px;
+    width:400px;
     height: 200px;
     margin: auto;
+    background-image: url(banner.jpg);
+    background-size: cover;
 }
 .mainbox{
-    width:500px;
-    height:100vh;
+    width:400px;
+    height:800px;
     margin: auto;
     position: fixed;
     left:250px;
@@ -19,17 +26,25 @@
 }
 .mainbox .heading .leftbox{
     margin-left: 10px;
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
     background-color: #3d91cc;
     float: left;
        margin-top: 10px;
 }
 .mainbox .heading .leftbox .img{
-    width:40px;height:40px;
-    padding-top: 20px;
-    padding-left: 20px;
+    width: 40px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.mainbox .heading .rightbox .img{
+    width: 40px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-image: url(forward.png);
 }
 .mainbox .heading .centerbox{
     width: 150px;
@@ -37,7 +52,7 @@
     border-radius: 75px;
     background-color: white;
     float: left;
-    left: 173px;
+    left: 125px;
     top: 170px;
     position: absolute;
     box-shadow: 0px 0px 10px #8080804f;
@@ -50,13 +65,14 @@
     border-radius: 26px;
     padding-left: 25px;
     padding-top: 20px;
+    
 }
 
 .mainbox .heading .rightbox{
     margin-right: 10px;
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
     background-color: #3d91cc;
     float: left;
        margin-top: 10px;
@@ -83,26 +99,96 @@ font-weight: 500;
 }
 
 .textcontainer{
-    width:500px;
+    width:400px;
     height:40px;
-    border: 1px solid;
+    
 }
 .textcontainer .text{
-    width: 20%;
-    height: 39px;
-    border-radius: 19px;
-    border: 1px solid;
-}
-.extcontainer .text .img{
-    width:30px;
-    height:30px;
+    width: 24%;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 3px;
+    box-shadow: 1px 1px 5px grey;
     float: left;
-}
-.extcontainer .text .p{
-    height:39px;
-    width:50px;
-    font-size: 10px;
-    float: left;
+    background-color: white;
 
 }
+.textcontainer .text1{
+    width: 24%;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 3px;
+    background-color: #ededed;
+    box-shadow: 1px 1px 5px grey;
+    float: left;
+}
 
+h3{
+    padding-left: 27px;
+    padding-top: 10px;
+}
+.mainbox .footer{
+    width:100%;
+    height:50px;
+}
+.mainbox .footer .left{
+    width:50%;
+    height:50px;
+    text-align: center;
+    border-bottom: 2px solid #809fb9;
+    float: left;
+    color:#a7d5ff;
+    background-color: white;
+}
+.mainbox .footer .right{
+    width:50%;
+    height:50px;
+    background-color: #ededed;
+    text-align: center;
+    float: left;
+    color:gray;
+}
+h2{
+    font-size: 20px;
+    vertical-align: middle;
+    
+}
+.mainbox .footer .container{
+    width:100%;
+    height:250px;
+    margin-top: 5px;
+   
+}
+ .text2{
+    width: 35%;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 67px;
+    margin-top: 10px;
+    margin-right: 178px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 5px grey;
+    float: left;
+    background-color: white;
+}
+p{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.h4{
+    margin-left: 65px;
+    margin-top: -36px;
+    font-weight: normal;
+}
+.mainbox .footer .container1{
+    width:100%;
+    height:250px;
+    margin-top: 5px;
+    background-color: #c0c4c7;
+}
+
+.mainbox .div{
+    height:500px;
+    width:100%;
+    background-color: green;
+}

@@ -1,0 +1,108 @@
+.banner{
+    width:500px;
+    height: 200px;
+    margin: auto;
+}
+.mainbox{
+    width:500px;
+    height:100vh;
+    margin: auto;
+    position: fixed;
+    left:250px;
+    
+    background-color: #f8fcff;
+}.mainbox .heading{
+    width:100%;
+    height:125px;
+   
+
+}
+.mainbox .heading .leftbox{
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #3d91cc;
+    float: left;
+       margin-top: 10px;
+}
+.mainbox .heading .leftbox .img{
+    width:40px;height:40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.mainbox .heading .centerbox{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: white;
+    float: left;
+    left: 173px;
+    top: 170px;
+    position: absolute;
+    box-shadow: 0px 0px 10px #8080804f;
+   
+    
+}
+.mainbox .heading .centerbox .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 26px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.mainbox .heading .rightbox{
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #3d91cc;
+    float: left;
+       margin-top: 10px;
+       position: absolute;
+       right: 0;
+}
+.mainbox .subdiv{
+    width:300px;
+    height:85px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    
+}.mainbox .subdiv h1{
+   margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+h3
+{margin: 0;
+font-size: 14px;
+font-weight: 500;
+}
+
+.textcontainer{
+    width:500px;
+    height:40px;
+    border: 1px solid;
+}
+.textcontainer .text{
+    width: 20%;
+    height: 39px;
+    border-radius: 19px;
+    border: 1px solid;
+}
+.extcontainer .text .img{
+    width:30px;
+    height:30px;
+    float: left;
+}
+.extcontainer .text .p{
+    height:39px;
+    width:50px;
+    font-size: 10px;
+    float: left;
+
+}
+

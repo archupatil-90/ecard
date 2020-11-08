@@ -113,6 +113,16 @@ font-weight: 500;
     background-color: white;
 
 }
+.textcontainer .text:hover{
+    width: 25%;
+    height: 31px;
+    border-radius: 15px;
+    margin-left: 3px;
+    box-shadow: 1px 1px 5px white;
+    float: left;
+    background-color: grey;
+}
+
 .textcontainer .text1{
     width: 24%;
     height: 30px;
@@ -122,6 +132,16 @@ font-weight: 500;
     box-shadow: 1px 1px 5px grey;
     float: left;
 }
+.textcontainer .text1:hover{
+    width: 25%;
+    height: 31px;
+    border-radius: 15px;
+    margin-left: 3px;
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
+    float: left;
+}
+
 
 h3{
     padding-left: 27px;
@@ -170,6 +190,10 @@ h2{
     box-shadow: 1px 1px 5px grey;
     float: left;
     background-color: white;
+}
+.text2:hover{
+    background-color: tomato;
+    color: white;
 }
 p{
     padding-left: 15px;
